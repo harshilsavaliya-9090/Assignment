@@ -81,6 +81,7 @@ Update the `.env` files in both **Backend** and **Frontend** according to your d
 ### 3. Run Backend
 
 ```bash
+python3 -m venv venv
 source venv/bin/activate
 cd Backend
 pip install -r requirements.txt
